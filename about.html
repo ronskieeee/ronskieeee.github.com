@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="mystyle.css">
+<link rel="stylesheet" href="about.css">
 
 </head>
 <body>
@@ -27,15 +27,22 @@
       <a href="#">week 3</a>
     </div>
   </li>
-</ul>
+ 
+ <div>
+  <form action="/action_page.php">
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="name" placeholder="Your full name..">
 
+    <label for="lname">contact</label>
+    <input type="text" id="lname" name="contact" placeholder="your contact..">
 
- </ul> 
-  </div>
-  <div class="content">
-  <h1>RON RON VAPE SHOP </h1>
-  <input type="text" name="search" placeholder="search..">
-  <p>WELCOME COME IN </p>
-    
-  </div>
-</body>
+    <label for="country">Location</label>
+    <select id="country" name="country">
+      <option value="muzon">muzon</option>
+      <option value="binangonan">binangonan</option>
+      <option value="aurora">aurora</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>

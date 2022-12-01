@@ -6,7 +6,7 @@
 .banner{
 	width: 100%;
 	height: 120vh;
-	background-image: url(https://wallpapercave.com/wp/wp1843422.jpg?fbclid=IwAR0JIXF0eaGNaR2XHZ8hyLtTNiQB8L9woZ9UT2kBeBNGuDqrTG9q9mC4LLw);
+	background-image: url(background.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -64,3 +64,16 @@
 	font-weight: 100;
 	line-height: 25xp;
 }
+
+
+div.gallery {
+margin: 5px;
+border: 1px solid #whitesmoke;
+float: ;
+width: 180px
+
+
+}
+
+
+
